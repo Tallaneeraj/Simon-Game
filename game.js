@@ -47,7 +47,7 @@ function animatePress(name){
 
 }
 
-$("body").keypress(function () {
+$("#level-title").click(function () {
     if (started==false){
         $("#level-title").text("Level " + level);
     nextSequence();

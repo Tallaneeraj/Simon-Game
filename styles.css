@@ -24,6 +24,7 @@ body {
   width: 200px;
   border: 10px solid black;
   border-radius: 20%;
+  cursor: pointer;
 }
 
 .game-over {
@@ -54,4 +55,9 @@ body {
 
 a{
   color: pink;
+}
+
+
+#level-title{
+  cursor: pointer;
 }

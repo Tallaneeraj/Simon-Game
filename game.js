@@ -23,7 +23,7 @@ function nextSequence()
 
 }
 
-$(".btn").click(function() {
+$(".btn1").click(function() {
     var userChosenColour = $(this).attr("id");
     userClickedPattern.push(userChosenColour);
     //console.log(userClickedPattern);
@@ -47,12 +47,13 @@ function animatePress(name){
 
 }
 
-$("#level-title").click(function () {
+$(".btn").click(function () {
     if (started==false){
         $("#level-title").text("Level " + level);
     nextSequence();
     started = true;
     }
+    $(".btn").addClass("hidden");
 
     
 })
@@ -93,6 +94,7 @@ function startOver(){
     level=0;
     gamePattern = [];
     started = false;
+    $(".btn").removeClass("hidden");
 }
 
 

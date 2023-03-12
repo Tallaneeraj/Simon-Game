@@ -53,8 +53,8 @@ $(".btn").click(function () {
     nextSequence();
     started = true;
     }
-    $(".btn").addClass("hidden");
-
+    $(".title").addClass("hidden");
+    $(".container-fluid").removeClass("hidden");
     
 })
 
@@ -84,6 +84,8 @@ function checkAnswer(currentLevel) {
       setTimeout(function () {$("body").removeClass("game-over");},500);
       $("#level-title").text("Game Over, Press Any Key to Restart");
       playSound("wrong");
+      $(".title").removeClass("hidden");
+      $(".container-fluid").addClass("hidden");
       startOver();
 
     }

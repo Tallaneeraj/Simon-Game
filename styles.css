@@ -1,8 +1,11 @@
 body {
   text-align: center;
   background-color: #011F3F;
-  display: grid;
-  place-items: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
 }
 
 #level-title {
@@ -12,13 +15,18 @@ body {
   color: #FEF2BF;
 }
 
-.container {
-  display: block;
-  width: 50%;
-  margin: auto;
-  display: grid;
-  place-items: center;  
+.container-fluid {
+
+  width: 100%;
+
 }
+
+.row{
+  display: grid;
+  place-items: center;
+  
+}
+
 
 .hidden{
   display: none;
@@ -26,7 +34,8 @@ body {
 
 .btn1 {
   margin: 25px;
-  display: inline-block;
+  align-items: center;
+  justify-content: center;
   height: 200px;
   width: 200px;
   border: 10px solid black;
@@ -65,10 +74,10 @@ a{
 }
 
 .btn{
-  width: 10%;
-  margin-bottom: 3%;
+  width: 10rem;
+  height: 3rem;
+  margin-bottom: 15%;
 }
 
-#level-title{
-  cursor: pointer;
-}
+
+

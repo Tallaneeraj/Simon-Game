@@ -11,31 +11,20 @@ body {
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  5%;
+  margin: 5%;
   color: #FEF2BF;
 }
 
 .container-fluid {
-
   width: 100%;
-
 }
 
-.row{
-  display: grid;
-  place-items: center;
-  
-}
-
-
-.hidden{
+.hidden {
   display: none;
 }
 
 .btn1 {
   margin: 25px;
-  align-items: center;
-  justify-content: center;
   height: 200px;
   width: 200px;
   border: 10px solid black;
@@ -69,15 +58,12 @@ body {
   background-color: grey;
 }
 
-a{
+a {
   color: pink;
 }
 
-.btn{
+.btn {
   width: 10rem;
   height: 3rem;
   margin-bottom: 15%;
 }
-
-
-

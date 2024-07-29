@@ -15,6 +15,7 @@ body {
   color: #FEF2BF;
 }
 
+
 .container-fluid {
   width: 100%;
 }
@@ -69,6 +70,13 @@ a {
 }
 
 #score-display {
+  margin: 20px;
+  font-family: 'Press Start 2P', cursive;
+  color: #FEF2BF;
+}
+
+
+#views-count{
   margin: 20px;
   font-family: 'Press Start 2P', cursive;
   color: #FEF2BF;
